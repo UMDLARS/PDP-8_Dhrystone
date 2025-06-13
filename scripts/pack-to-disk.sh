@@ -6,7 +6,7 @@ TARGET_DISK_NAME=disk4.rk05
 TARGET_DISK_SIDE=0
 
 # Copy dhrystone src to disk folder
-cp ./drystn.pa ./dhry.rk05.$TARGET_DISK_SIDE/drystn.pa
+#cp ./drystn.pa ./dhry.rk05.$TARGET_DISK_SIDE/drystn.pa
 cp ./drystn_opt.pa ./dhry.rk05.$TARGET_DISK_SIDE/drysto.pa
 
 # Re-pack disk image

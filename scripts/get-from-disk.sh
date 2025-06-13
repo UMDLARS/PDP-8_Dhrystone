@@ -12,5 +12,5 @@ cp $PDP12_TOOLS_DIR/os8-disk-server/disks/$TARGET_DISK_NAME ./dhry.rk05
 $PDP12_TOOLS_DIR/8tools/os8xplode ./dhry.rk05
 
 # Copy dhrystone source
-cp ./dhry.rk05.$TARGET_DISK_SIDE/drystn.pa ./drystn.pa
+#cp ./dhry.rk05.$TARGET_DISK_SIDE/drystn.pa ./drystn.pa
 cp ./dhry.rk05.$TARGET_DISK_SIDE/drysto.pa ./drystn_opt.pa
